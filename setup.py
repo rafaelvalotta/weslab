@@ -4,7 +4,7 @@ setup(
     name='weslab',
     version='0.1.0',
     packages=find_packages(),
-    # packages=find_packages(include=["wesl", "wesl.*"]),
+    packages=find_packages(include=["weslab", "weslab.*"]),
     install_requires=[
         'numpy',
         'matplotlib',
